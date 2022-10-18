@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class InputFile implements InputInterface{   //通过文件输入
+public class InputFile implements InputInterface{
 
     @Override
     public String setInput(ArrayList<String> sentences,String message) {

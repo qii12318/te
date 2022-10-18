@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 import javax.naming.spi.DirStateFactory.Result;
 
-public class InputDB implements InputInterface {    //通过数据库输入
+public class InputDB implements InputInterface {
     public String setInput(ArrayList<String> sentences,String message){
         Security.setProperty("jdk.tls.disabledAlgorithms","SSLv3, RC4, DES, MD5withRSA, DH keySize < 1024, EC keySize < 224, 3DES_EDE_CBC, anon, NULL, include jdk.disabled.namedCurves");
         String driverName="jdbc.jar";

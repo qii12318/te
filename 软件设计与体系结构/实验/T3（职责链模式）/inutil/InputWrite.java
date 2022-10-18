@@ -2,7 +2,7 @@ package inutil;
 
 import java.util.ArrayList;
 
-public class InputWrite implements InputInterface{  //通过ui输入
+public class InputWrite implements InputInterface{
     public String setInput(ArrayList<String> sentences,String message){
         String []tempsen=message.split("\n");
         for(int i=0;i<tempsen.length;i++){
