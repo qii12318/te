@@ -1,0 +1,1 @@
+rsync hfutuser@127.0.0.1:/home/hfutuser/te/*.bashrc ./
